@@ -1,0 +1,54 @@
+        /*==================================
+============Theme CSS==============
+================================*/
+    
+    section {
+        padding-top: 100px;
+        padding-bottom: 75px;
+    }
+    
+    #main-menu img {
+        height: 50px;
+    }
+    
+    #main-menu ul li a.active,
+    ul li a:hover {
+        background-color: #28a745;
+    }
+    
+    #home {
+        background-image: url(../images/banner.png);
+    }
+    
+    #service {
+        background-image: url(../images/serve.jpg);
+    }
+    
+    #project {
+        background-image: url(../images/project.jpg);
+    }
+    
+    #review {
+        background-image: url(../images/review.jpg);
+    }
+    
+    #contact {
+        background-image: url(../images/contact.jpg);
+    }
+    
+    #social ul li {
+        margin-right: 12px;
+    }
+    
+    #social ul li a {
+        height: 40px;
+        width: 40px;
+    }
+    
+    @media (max-width: 576px) {
+        .h5-sm {
+            font-size: 1rem;
+        }
+        .h6-sm {
+            font-size: .75rem;
+        }
